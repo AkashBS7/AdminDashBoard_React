@@ -8,6 +8,7 @@ import Home from "./pages/homePage/Home";
 import UserList from "./pages/Userlist/UserList";
 import User from "./pages/user/User";
 import Newuser from "./pages/newUser/Newuser";
+import ProductList from "./pages/productList/ProductList";
 
 function App() {
   return (
@@ -30,6 +31,10 @@ function App() {
 
           <Route path='/newUser'>
             <Newuser />
+          </Route>
+
+          <Route path='/products'>
+            <ProductList />
           </Route>
 
         </Switch>        
