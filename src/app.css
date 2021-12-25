@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+}
+
+.others {
+    flex: 4;
+    background-color: rgba(138, 138, 138, 0.11);
+}
