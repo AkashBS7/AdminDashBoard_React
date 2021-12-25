@@ -35,7 +35,30 @@ export default function Newuser() {
                     <label>Address</label>
                     <input type='text' placeholder='Address'/>
                 </div>
+
+                <div className="newUserFormItem">
+                    <label>Gender</label>
+                    <div className="newUserGenderContainer">
+                        <input type='Radio' name='gender' id='male' value='male'/>
+                        <label htmlFor='male'>Male</label>
+
+                        <input type='Radio' name='gender' id='female' value='female'/>
+                        <label htmlFor='female'>Female</label>
+
+                        <input type='Radio' name='gender' id='others' value='others'/>
+                        <label htmlFor='other'>Other</label>
+                    </div>
+                </div>
+
+                <div className="newUserFormItem">
+                    <label>Active</label>
+                    <select className='newUserSelect' name='active' id='active'>
+                        <option value='yes'>Yes</option>
+                        <option value='no'>No</option>
+                    </select>
+                </div>
             </form>
+            <button className='newUserButton'>Create</button>
         </div>
     )
 }
