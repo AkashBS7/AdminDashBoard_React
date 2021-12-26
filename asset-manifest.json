@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AdminDashBoard_React/static/css/main.5fa4b723.css",
+    "main.js": "/AdminDashBoard_React/static/js/main.1bea04cc.js",
+    "index.html": "/AdminDashBoard_React/index.html",
+    "main.5fa4b723.css.map": "/AdminDashBoard_React/static/css/main.5fa4b723.css.map",
+    "main.1bea04cc.js.map": "/AdminDashBoard_React/static/js/main.1bea04cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fa4b723.css",
+    "static/js/main.1bea04cc.js"
+  ]
+}
